@@ -1,0 +1,109 @@
+#game-container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url('assets/dragonWing.avif');
+  background-size: cover;
+  border: 3px solid #444;
+  overflow: hidden;
+}
+
+.dragon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+body {
+  background-color: #d81414; /* Light aqua blue */
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#game-area {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  background-image: src("assets/dragonWing.avif");
+  background-size: cover;
+  border: 2px solid #333;
+  cursor: crosshair;
+}
+
+#hidden-object {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 1.5em;
+  color: green;
+  font-weight: bold;
+}
+
+HTML CODE
+      <main class="bg">
+      <div class="title-con">
+        <h1 class="game-title"> Find the hidden dragons!</h1>
+      </div>
+      <body>
+        <div id="game-area">
+          <img id="hidden-object" src="assets/dragon1.png" alt="Hidden Object">
+        </div>
+        <p id="message"></p>
+      
+        <script src="script.js"></script>
+      </body>
+
+      <div class="game-con">
+        <div class="game">
+          <img
+            class="image"
+            src="assets/dragonWing.avif"
+            width="1900"
+            height="1000"
+          />
+        </div>
+        
+
+     
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

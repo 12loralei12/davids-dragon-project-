@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2 {
+  font-family: "Pacifico", cursive ;
+  font-weight: bold;
+  color: #1721a8;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #10943c;
+}
+
+/* Header Styles */
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfdb13;
+  padding: 20px;
+}
+
+.links-con {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  color: #c75f09;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* Main */
+
+.bg{
+  background-color: rgb(167, 90, 85);
+}
+
+.pic-con {
+  width: 900px;
+  height: 500px;
+  display: center;
+  align-items: center;
+  margin: 70px;
+  margin-left: 500px;
+  margin-top: 50px;
+  
+  
+}
+
+.about-title {
+  font-size: 40px;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.about-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+}
+.about-text-con {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  font-family: "Varela Round", sans-serif;
+  color: rgb(90, 16, 16);
+}
+
+
+/* Gallery */
+.title-con {
+  
+  display: flex;
+  justify-content: center;
+}
+.gallery-title {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.gallery-con {
+    width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  border: #dbc819 2px solid;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+.image {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+
+
+/* Targeting any viewport that is 800px or smaller */
+@media (max-width: 800px) {
+    .links-con{
+      width: 350px;
+    }
+
+    h1{
+      font-size: 20px;
+    }
+
+    .links{
+      font-size: 15px;
+    }
+
+    .vid-con{
+      width: 500px;
+      height: 300px;
+    }
+
+    iframe{
+      width: 500px;
+      height: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
