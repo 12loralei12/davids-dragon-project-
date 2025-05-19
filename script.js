@@ -7,6 +7,8 @@ const dragonImages = [
   'assets/dragon3.png'
 ];
 
+
+
 let foundDragons = 0;
 
 function getRandomPosition(containerWidth, containerHeight, dragonSize) {
